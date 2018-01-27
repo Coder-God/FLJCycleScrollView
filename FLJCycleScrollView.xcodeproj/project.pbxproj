@@ -1,0 +1,574 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C6022576557C1242EF06D45 /* libPods-FLJCycleScrollView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FF765EB3035820DA2673B9B1 /* libPods-FLJCycleScrollView.a */; };
+		7E142BBB1FF39EF600499B34 /* MyCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E142BBA1FF39EF600499B34 /* MyCollectionViewController.m */; };
+		7E142BBE1FF39FD300499B34 /* MyCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E142BBD1FF39FD300499B34 /* MyCollectionViewCell.m */; };
+		7E1C0AD01FE8B8470093ED2C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E1C0ACF1FE8B8470093ED2C /* AppDelegate.m */; };
+		7E1C0AD31FE8B8470093ED2C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E1C0AD21FE8B8470093ED2C /* ViewController.m */; };
+		7E1C0AD61FE8B8470093ED2C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E1C0AD41FE8B8470093ED2C /* Main.storyboard */; };
+		7E1C0ADB1FE8B8470093ED2C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E1C0AD91FE8B8470093ED2C /* LaunchScreen.storyboard */; };
+		7E1C0ADE1FE8B8470093ED2C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E1C0ADD1FE8B8470093ED2C /* main.m */; };
+		7E1C0AE61FE8BB3F0093ED2C /* FLJCycleScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E1C0AE51FE8BB3F0093ED2C /* FLJCycleScrollView.m */; };
+		7E7053E91FFF667E0027C03A /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E7053E81FFF667E0027C03A /* NotificationCenter.framework */; };
+		7E7053ED1FFF667E0027C03A /* TodayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E7053EC1FFF667E0027C03A /* TodayViewController.m */; };
+		7E7053F41FFF667E0027C03A /* MyWidget.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 7E7053E61FFF667D0027C03A /* MyWidget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		7EE2A8C5201C70C100B7154D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7EE2A8C4201C70C100B7154D /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7E7053F21FFF667E0027C03A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E1C0AC31FE8B8470093ED2C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7E7053E51FFF667D0027C03A;
+			remoteInfo = MyWidget;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7E7053F81FFF667E0027C03A /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				7E7053F41FFF667E0027C03A /* MyWidget.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		63E071F02B427C417156A5A0 /* Pods-FLJCycleScrollView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FLJCycleScrollView.release.xcconfig"; path = "Pods/Target Support Files/Pods-FLJCycleScrollView/Pods-FLJCycleScrollView.release.xcconfig"; sourceTree = "<group>"; };
+		7E142BB91FF39EF600499B34 /* MyCollectionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyCollectionViewController.h; sourceTree = "<group>"; };
+		7E142BBA1FF39EF600499B34 /* MyCollectionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyCollectionViewController.m; sourceTree = "<group>"; };
+		7E142BBC1FF39FD300499B34 /* MyCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyCollectionViewCell.h; sourceTree = "<group>"; };
+		7E142BBD1FF39FD300499B34 /* MyCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyCollectionViewCell.m; sourceTree = "<group>"; };
+		7E1C0ACB1FE8B8470093ED2C /* FLJCycleScrollView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FLJCycleScrollView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E1C0ACE1FE8B8470093ED2C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7E1C0ACF1FE8B8470093ED2C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7E1C0AD11FE8B8470093ED2C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7E1C0AD21FE8B8470093ED2C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7E1C0AD51FE8B8470093ED2C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7E1C0ADA1FE8B8470093ED2C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7E1C0ADC1FE8B8470093ED2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E1C0ADD1FE8B8470093ED2C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7E1C0AE41FE8BB3F0093ED2C /* FLJCycleScrollView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FLJCycleScrollView.h; sourceTree = "<group>"; };
+		7E1C0AE51FE8BB3F0093ED2C /* FLJCycleScrollView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FLJCycleScrollView.m; sourceTree = "<group>"; };
+		7E7053E61FFF667D0027C03A /* MyWidget.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = MyWidget.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E7053E81FFF667E0027C03A /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		7E7053EB1FFF667E0027C03A /* TodayViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TodayViewController.h; sourceTree = "<group>"; };
+		7E7053EC1FFF667E0027C03A /* TodayViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TodayViewController.m; sourceTree = "<group>"; };
+		7E7053F11FFF667E0027C03A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E719E3620198B4C00A71844 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		7EE2A8C4201C70C100B7154D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AC44E4F1A8DFA0E2E076313F /* Pods-FLJCycleScrollView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FLJCycleScrollView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FLJCycleScrollView/Pods-FLJCycleScrollView.debug.xcconfig"; sourceTree = "<group>"; };
+		FF765EB3035820DA2673B9B1 /* libPods-FLJCycleScrollView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FLJCycleScrollView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7E1C0AC81FE8B8470093ED2C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C6022576557C1242EF06D45 /* libPods-FLJCycleScrollView.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E7053E31FFF667D0027C03A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E7053E91FFF667E0027C03A /* NotificationCenter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1034EDF4BF9BCBB912D69058 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AC44E4F1A8DFA0E2E076313F /* Pods-FLJCycleScrollView.debug.xcconfig */,
+				63E071F02B427C417156A5A0 /* Pods-FLJCycleScrollView.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7E1C0AC21FE8B8470093ED2C = {
+			isa = PBXGroup;
+			children = (
+				7E719E3620198B4C00A71844 /* PrefixHeader.pch */,
+				7E1C0ACD1FE8B8470093ED2C /* FLJCycleScrollView */,
+				7E7053EA1FFF667E0027C03A /* MyWidget */,
+				7E7053E71FFF667E0027C03A /* Frameworks */,
+				7E1C0ACC1FE8B8470093ED2C /* Products */,
+				1034EDF4BF9BCBB912D69058 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		7E1C0ACC1FE8B8470093ED2C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7E1C0ACB1FE8B8470093ED2C /* FLJCycleScrollView.app */,
+				7E7053E61FFF667D0027C03A /* MyWidget.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7E1C0ACD1FE8B8470093ED2C /* FLJCycleScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				7E142BBC1FF39FD300499B34 /* MyCollectionViewCell.h */,
+				7E142BBD1FF39FD300499B34 /* MyCollectionViewCell.m */,
+				7E142BB91FF39EF600499B34 /* MyCollectionViewController.h */,
+				7E142BBA1FF39EF600499B34 /* MyCollectionViewController.m */,
+				7E1C0AE41FE8BB3F0093ED2C /* FLJCycleScrollView.h */,
+				7E1C0AE51FE8BB3F0093ED2C /* FLJCycleScrollView.m */,
+				7E1C0ACE1FE8B8470093ED2C /* AppDelegate.h */,
+				7E1C0ACF1FE8B8470093ED2C /* AppDelegate.m */,
+				7E1C0AD11FE8B8470093ED2C /* ViewController.h */,
+				7E1C0AD21FE8B8470093ED2C /* ViewController.m */,
+				7EE2A8C4201C70C100B7154D /* Assets.xcassets */,
+				7E1C0AD41FE8B8470093ED2C /* Main.storyboard */,
+				7E1C0AD91FE8B8470093ED2C /* LaunchScreen.storyboard */,
+				7E1C0ADC1FE8B8470093ED2C /* Info.plist */,
+				7E1C0ADD1FE8B8470093ED2C /* main.m */,
+			);
+			path = FLJCycleScrollView;
+			sourceTree = "<group>";
+		};
+		7E7053E71FFF667E0027C03A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7E7053E81FFF667E0027C03A /* NotificationCenter.framework */,
+				FF765EB3035820DA2673B9B1 /* libPods-FLJCycleScrollView.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7E7053EA1FFF667E0027C03A /* MyWidget */ = {
+			isa = PBXGroup;
+			children = (
+				7E7053EB1FFF667E0027C03A /* TodayViewController.h */,
+				7E7053EC1FFF667E0027C03A /* TodayViewController.m */,
+				7E7053F11FFF667E0027C03A /* Info.plist */,
+			);
+			path = MyWidget;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7E1C0ACA1FE8B8470093ED2C /* FLJCycleScrollView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E1C0AE11FE8B8470093ED2C /* Build configuration list for PBXNativeTarget "FLJCycleScrollView" */;
+			buildPhases = (
+				0BA03A2ECC5E710511EEF3E4 /* [CP] Check Pods Manifest.lock */,
+				7E1C0AC71FE8B8470093ED2C /* Sources */,
+				7E1C0AC81FE8B8470093ED2C /* Frameworks */,
+				7E1C0AC91FE8B8470093ED2C /* Resources */,
+				7E7053F81FFF667E0027C03A /* Embed App Extensions */,
+				1113F2B752409EC876C23165 /* [CP] Embed Pods Frameworks */,
+				266916677CFFF410FA7AF004 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7E7053F31FFF667E0027C03A /* PBXTargetDependency */,
+			);
+			name = FLJCycleScrollView;
+			productName = UIScrollView;
+			productReference = 7E1C0ACB1FE8B8470093ED2C /* FLJCycleScrollView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7E7053E51FFF667D0027C03A /* MyWidget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E7053F51FFF667E0027C03A /* Build configuration list for PBXNativeTarget "MyWidget" */;
+			buildPhases = (
+				7E7053E21FFF667D0027C03A /* Sources */,
+				7E7053E31FFF667D0027C03A /* Frameworks */,
+				7E7053E41FFF667D0027C03A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyWidget;
+			productName = MyWidget;
+			productReference = 7E7053E61FFF667D0027C03A /* MyWidget.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7E1C0AC31FE8B8470093ED2C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "贾林飞";
+				TargetAttributes = {
+					7E1C0ACA1FE8B8470093ED2C = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					7E7053E51FFF667D0027C03A = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 7E1C0AC61FE8B8470093ED2C /* Build configuration list for PBXProject "FLJCycleScrollView" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7E1C0AC21FE8B8470093ED2C;
+			productRefGroup = 7E1C0ACC1FE8B8470093ED2C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7E1C0ACA1FE8B8470093ED2C /* FLJCycleScrollView */,
+				7E7053E51FFF667D0027C03A /* MyWidget */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7E1C0AC91FE8B8470093ED2C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E1C0ADB1FE8B8470093ED2C /* LaunchScreen.storyboard in Resources */,
+				7E1C0AD61FE8B8470093ED2C /* Main.storyboard in Resources */,
+				7EE2A8C5201C70C100B7154D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E7053E41FFF667D0027C03A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0BA03A2ECC5E710511EEF3E4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FLJCycleScrollView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1113F2B752409EC876C23165 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FLJCycleScrollView/Pods-FLJCycleScrollView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		266916677CFFF410FA7AF004 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FLJCycleScrollView/Pods-FLJCycleScrollView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7E1C0AC71FE8B8470093ED2C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E1C0AE61FE8BB3F0093ED2C /* FLJCycleScrollView.m in Sources */,
+				7E142BBB1FF39EF600499B34 /* MyCollectionViewController.m in Sources */,
+				7E142BBE1FF39FD300499B34 /* MyCollectionViewCell.m in Sources */,
+				7E1C0AD31FE8B8470093ED2C /* ViewController.m in Sources */,
+				7E1C0ADE1FE8B8470093ED2C /* main.m in Sources */,
+				7E1C0AD01FE8B8470093ED2C /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E7053E21FFF667D0027C03A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E7053ED1FFF667E0027C03A /* TodayViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7E7053F31FFF667E0027C03A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7E7053E51FFF667D0027C03A /* MyWidget */;
+			targetProxy = 7E7053F21FFF667E0027C03A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7E1C0AD41FE8B8470093ED2C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7E1C0AD51FE8B8470093ED2C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7E1C0AD91FE8B8470093ED2C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7E1C0ADA1FE8B8470093ED2C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7E1C0ADF1FE8B8470093ED2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7E1C0AE01FE8B8470093ED2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7E1C0AE21FE8B8470093ED2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC44E4F1A8DFA0E2E076313F /* Pods-FLJCycleScrollView.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZAD3R8KYB8;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/PrefixHeader.pch";
+				INFOPLIST_FILE = FLJCycleScrollView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jialinfei.UIScrollView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7E1C0AE31FE8B8470093ED2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63E071F02B427C417156A5A0 /* Pods-FLJCycleScrollView.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZAD3R8KYB8;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/PrefixHeader.pch";
+				INFOPLIST_FILE = FLJCycleScrollView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jialinfei.UIScrollView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7E7053F61FFF667E0027C03A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZAD3R8KYB8;
+				INFOPLIST_FILE = MyWidget/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jialinfei.UIScrollView.MyWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7E7053F71FFF667E0027C03A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZAD3R8KYB8;
+				INFOPLIST_FILE = MyWidget/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jialinfei.UIScrollView.MyWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7E1C0AC61FE8B8470093ED2C /* Build configuration list for PBXProject "FLJCycleScrollView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E1C0ADF1FE8B8470093ED2C /* Debug */,
+				7E1C0AE01FE8B8470093ED2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E1C0AE11FE8B8470093ED2C /* Build configuration list for PBXNativeTarget "FLJCycleScrollView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E1C0AE21FE8B8470093ED2C /* Debug */,
+				7E1C0AE31FE8B8470093ED2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E7053F51FFF667E0027C03A /* Build configuration list for PBXNativeTarget "MyWidget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E7053F61FFF667E0027C03A /* Debug */,
+				7E7053F71FFF667E0027C03A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7E1C0AC31FE8B8470093ED2C /* Project object */;
+}
